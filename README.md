@@ -189,7 +189,3 @@ Other commands: `npm run dev`, `npm run build`, `npm run preview`, `npm run type
 ## Notes on the Groq free tier
 
 The free tier allows about 8,000 tokens per minute and 1,000 requests per day per model. Tutorix keeps each request under the per-minute budget, spreads large jobs (bulk Bloom analysis, long worksheets, report comments) across models, and automatically falls back to another model when one is rate-limited. If many people use it at once, some requests may take a little longer or ask you to retry after a minute; a paid Groq key removes these limits.
-
-## Credits
-
-Built as **Tutorix** (formerly ShikkhAI).
