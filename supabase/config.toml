@@ -1,0 +1,5 @@
+project_id = "gkdvlkkxzdcagxduzeay"
+
+[functions.ai]
+# Auth is verified inside the function (supports the new asymmetric JWT signing keys).
+verify_jwt = false

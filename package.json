@@ -1,0 +1,42 @@
+{
+  "name": "tutorix",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tutorix — AI toolkit for teachers and students, powered by Supabase and Groq.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test:ai": "node scripts/test-ai.mjs",
+    "deploy:functions": "supabase functions deploy ai --project-ref gkdvlkkxzdcagxduzeay --use-api --no-verify-jwt"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "clsx": "^2.1.1",
+    "html2pdf.js": "^0.14.0",
+    "katex": "^0.18.9",
+    "lucide-react": "^1.49.0",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.1.0",
+    "react-router-dom": "^6.30.6",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0"
+  }
+}
